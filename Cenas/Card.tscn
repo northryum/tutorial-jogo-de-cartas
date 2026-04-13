@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bj580tdiyg6cx"]
+
+[ext_resource type="Texture2D" uid="uid://bxh41mdb3liso" path="res://baixados.jpg" id="1_30bcm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_33wa3"]
+size = Vector2(461, 330)
+
+[node name="Card - Node2D" type="Node2D" unique_id=967357256]
+
+[node name="Card2d - Sprite2D" type="Sprite2D" parent="." unique_id=2056597804]
+scale = Vector2(7.1406245, 5.1520963)
+texture = ExtResource("1_30bcm")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=56174704]
+position = Vector2(393, 155)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2020046379]
+position = Vector2(-394, -156)
+shape = SubResource("RectangleShape2D_33wa3")

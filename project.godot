@@ -11,8 +11,15 @@ config_version=5
 [application]
 
 config/name="tutorial-de-jogo-de-cartas"
+run/main_scene="uid://ba8xbuvbw48fy"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/resizable=false
+window/stretch/mode="viewport"
+window/vsync/vsync_mode=0
 
 [physics]
 
