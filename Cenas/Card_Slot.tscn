@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://d2qytw3rnbiwc"]
+
+[ext_resource type="Texture2D" uid="uid://bmgidiv1cq7sw" path="res://cdi.svg" id="1_y6xoh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x0k6r"]
+size = Vector2(131, 130)
+
+[node name="Card Slot - Node2D" type="Node2D" unique_id=324516665]
+
+[node name="Card Slot Image - Sprite2D" type="Sprite2D" parent="." unique_id=36217002]
+modulate = Color(0.736038, 0.26353213, 0.19167861, 1)
+texture = ExtResource("1_y6xoh")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1726799309]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1014524002]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_x0k6r")

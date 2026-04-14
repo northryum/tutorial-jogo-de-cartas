@@ -23,7 +23,8 @@ func _input(_event):
 			if card:
 				_start_drag(card)
 		else:
-			finish_frag()
+			if card_being_dragged:
+				finish_frag()
 	pass
 
 func _start_drag(card):

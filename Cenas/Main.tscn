@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://csw36hjlgo0m" path="res://Scripts/Card_Manager.gd" id="1_675i2"]
 [ext_resource type="PackedScene" uid="uid://bj580tdiyg6cx" path="res://Cenas/Card.tscn" id="2_k74ne"]
+[ext_resource type="PackedScene" uid="uid://d2qytw3rnbiwc" path="res://Cenas/Card_Slot.tscn" id="3_k74ne"]
 
 [node name="Main - Node2D" type="Node2D" unique_id=164654982]
 
@@ -13,3 +14,6 @@ position = Vector2(918, 255)
 
 [node name="Card - Node2D2" parent="Card Manager - Node2D" unique_id=1957006467 instance=ExtResource("2_k74ne")]
 position = Vector2(208, 237)
+
+[node name="Card Slot - Node2D" parent="." unique_id=324516665 instance=ExtResource("3_k74ne")]
+position = Vector2(540, 100)
